@@ -50,11 +50,11 @@ module Odk
       children # sorted when fragment created in partitioner
     end
 
-    def has_group_children?
+    def group_children?
       false
     end
 
-    def is_childless?
+    def childless?
       false
     end
   end
